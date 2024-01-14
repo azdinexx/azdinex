@@ -1,13 +1,9 @@
 import type { Metadata } from 'next';
-import { Nunito, Raleway } from 'next/font/google';
+import { Nunito } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/header';
 
 const nunito = Nunito({ subsets: ['latin'] });
-export const headingFont = Raleway({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600', '700'],
-});
 
 export const metadata: Metadata = {
   title: 'AzdineX',
